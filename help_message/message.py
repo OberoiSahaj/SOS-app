@@ -5,8 +5,8 @@ import speech_recognition as sr
 class Ui_EmergencyApp(object):
 
     def setupUi(self, EmergencyApp):
-        EmergencyApp.setObjectName("EmergencyApp")
-        EmergencyApp.resize(534, 436)
+        EmergencyApp.setObjectName("Emergency App")
+        EmergencyApp.resize(534.5, 436.5)
         self.centralwidget = QtWidgets.QWidget(EmergencyApp)
         self.centralwidget.setObjectName("centralwidget")
         self.sos = QtWidgets.QTextEdit(self.centralwidget)
